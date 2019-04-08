@@ -35,7 +35,7 @@ def hit?(number)
   if reply == "s"
   end
   elsif reply == "h"
-    display_card_total(number)
+    number +=
   else invalid_command
   end
   number
