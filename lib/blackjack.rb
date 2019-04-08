@@ -33,7 +33,6 @@ def hit?(number)
   reply = get_user_input
 
   if reply == "s"
-end
   elsif reply == "h"
     number += deal_card
   elsif reply != "s" || reply!= "h"
