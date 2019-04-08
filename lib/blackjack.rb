@@ -3,13 +3,11 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
   rand(1..11)
 end
 
 def display_card_total(card_total)
-  # code #display_card_total here
-  "Your cards add up to #{card_total}"
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -45,7 +43,6 @@ def hit?(number)
 end
 
 def invalid_command(answer)
-  # code invalid_command here
   if answer != "s" || answer != "h"
     puts "Please enter a valid command."
     prompt_user
@@ -57,7 +54,6 @@ end
 #####################################################
 
 def runner
-  # code runner here
   welcome
   total = initial_round
   
