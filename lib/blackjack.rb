@@ -42,8 +42,8 @@ def hit?(number)
   if reply == 'h'
     number += deal_card
     display_card_total(number)
-  elsif reply == "s"
-    display_card_total(number)
+  #elsif reply == "s"
+    #display_card_total(number)
   else invalid_command
   end
   number
