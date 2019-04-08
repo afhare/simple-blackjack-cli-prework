@@ -32,9 +32,9 @@ def hit?(number)
   prompt_user
   reply = get_user_input
 
-  if reply == 'h'
-    number += deal_card
-    display_card_total(number)
+  if reply == 's'
+  end
+
   elsif reply == "s"
     display_card_total(number)
   else invalid_command
