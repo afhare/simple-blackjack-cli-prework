@@ -32,7 +32,7 @@ end
 
 def hit?(number)
   prompt_user
-  
+  get_user_input
   reply = get_user_input
 
   if reply == 'h'
