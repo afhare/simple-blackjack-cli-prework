@@ -32,7 +32,7 @@ def hit?(number)
   prompt_user
   reply = get_user_input
 
-  if reply == 's'
+  if reply == "s"
   end
   elsif reply == "h"
     display_card_total(number)
